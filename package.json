@@ -1,5 +1,5 @@
 {
-  "name": "news-app",
+  "name": "journal",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,9 +14,15 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.11",
+    "lucide-react": "^0.378.0",
+    "next": "14.1.0",
+    "nextjs-toploader": "^1.6.12",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "tailwind-merge": "^2.3.0",
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "1",
